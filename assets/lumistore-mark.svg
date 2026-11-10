@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">LumiStore</title>
+  <desc id="desc">Monograma minimalista da LumiStore com a letra L e um halo de luz.</desc>
+  <path d="M49.5 16.3a23.5 23.5 0 1 0 3.8 22.6" fill="none" stroke="#111111" stroke-linecap="round" stroke-width="3.5"/>
+  <path d="M23 18.5v27h17.5" fill="none" stroke="#111111" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.5"/>
+  <path d="M48.8 10.5v8M44.8 14.5h8" fill="none" stroke="#111111" stroke-linecap="round" stroke-width="2.5"/>
+</svg>

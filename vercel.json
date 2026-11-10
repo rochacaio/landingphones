@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/iphone", "destination": "/iphone.html" },
+    { "source": "/apple-watch", "destination": "/apple-watch.html" },
+    { "source": "/ipad", "destination": "/ipad.html" },
+    { "source": "/macbook", "destination": "/macbook.html" },
+    { "source": "/airpods", "destination": "/airpods.html" },
+    { "source": "/compare", "destination": "/compare.html" }
+  ]
+}
