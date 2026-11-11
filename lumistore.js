@@ -70,6 +70,13 @@ if (!document.querySelector('link[rel="icon"]')) {
   document.head.appendChild(favicon);
 }
 
+const reserveProductImage = document.querySelector(".reserve-product-image");
+const revealReserveProduct = () => requestAnimationFrame(() => reserveProductImage?.classList.add("is-loaded"));
+if (reserveProductImage) {
+  if (reserveProductImage.complete && reserveProductImage.naturalWidth > 0) revealReserveProduct();
+  else reserveProductImage.addEventListener("load", revealReserveProduct, { once: true });
+}
+
 menuButton?.addEventListener("click", () => {
   const open = mobilePanel.classList.toggle("is-open");
   menuButton.setAttribute("aria-expanded", String(open));
