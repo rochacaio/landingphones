@@ -325,7 +325,7 @@ if (compareOptions && compareBoard) {
     const productColumns = products.map((product) => `
       <article class="compare-product">
         <div class="compare-product-media"><img src="${product.image}" alt="${product.name}" /></div>
-        <h3>${product.name}</h3><p>${product.description}</p><strong class="compare-product-price">${product.price}</strong><a class="compare-product-link" href="iphone.html">Ver produto ↗</a>
+        <h3>${product.name}</h3><p>${product.description}</p><strong class="compare-product-price">${product.price}</strong><a class="compare-product-link" href="/iphone">Ver produto ↗</a>
       </article>`).join("");
     const specGroups = compareSections.map((section) => `<div class="compare-spec-group"><div class="compare-spec-title">${section.title}</div>${section.rows.map(([key, label]) => `
       <div class="compare-spec-row"><div>${label}</div>${products.map((product) => `<div>${product.specs[key]}</div>`).join("")}${Array.from({ length: 3 - products.length }, () => "<div></div>").join("")}</div>`).join("")}</div>`).join("");

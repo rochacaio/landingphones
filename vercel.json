@@ -1,4 +1,13 @@
 {
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/iphone.html", "destination": "/iphone", "permanent": true },
+    { "source": "/apple-watch.html", "destination": "/apple-watch", "permanent": true },
+    { "source": "/ipad.html", "destination": "/ipad", "permanent": true },
+    { "source": "/macbook.html", "destination": "/macbook", "permanent": true },
+    { "source": "/airpods.html", "destination": "/airpods", "permanent": true },
+    { "source": "/compare.html", "destination": "/compare", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/iphone", "destination": "/iphone.html" },
     { "source": "/apple-watch", "destination": "/apple-watch.html" },
